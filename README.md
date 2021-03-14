@@ -3,7 +3,7 @@
 ## 環境構築
 ```
 git clone https://github.com/katsura-jp/generate-syosetu-title.git
-cd generate-naro-title
+cd generate-syosetu-title
 pip install -r requirements.txt
 mkdir model
 ```
