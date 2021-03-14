@@ -1,0 +1,7 @@
+fugashi
+transformers
+spacy==2.3.2
+ginza
+janome
+mojimoji
+torch
