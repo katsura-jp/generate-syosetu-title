@@ -1,4 +1,11 @@
-"""PyTorch BERT model."""
+"""
+PyTorch BERT model.
+Original Impl: https://github.com/microsoft/unilm/blob/master/s2s-ft/s2s_ft/modeling.py
+
+Based on original impl linked above, but re-wrote for latest pytorch and transformers version.
+"""
+
+
 
 import os
 import copy

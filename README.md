@@ -2,7 +2,7 @@
 
 ## 環境構築
 ```
-git clone ...
+git clone https://github.com/katsura-jp/generate-syosetu-title.git
 cd generate-naro-title
 pip install -r requirements.txt
 mkdir model
@@ -16,7 +16,6 @@ mkdir model
 （例）`model`にversion_1を入れ，`input.txt`にあらすじを記述した場合．また，ビームサーチのサイズに5を指定．
 
 ```
-python 
+python generate.py --ckpt ./model/version_1/ -i ./input.txt -b 5
 ```
-
 

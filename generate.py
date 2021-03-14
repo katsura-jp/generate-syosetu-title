@@ -25,7 +25,7 @@ if __name__ == "__main__":
     parser.add_argument("--ckpt", "-c", default=None, type=str, required=True,
                         help="Path to the model checkpoint.")
     parser.add_argument("--input", "-i", type=str, help="path/to/input.txt")
-    parser.add_argument('--beam_size', '-b', type=int, default=5,
+    parser.add_argument('--beam_size', '-b', type=int, default=1,
                         help="Beam size for searching")
     args = parser.parse_args()
     main(args)
